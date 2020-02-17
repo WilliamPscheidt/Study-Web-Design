@@ -1,0 +1,73 @@
+body{
+	padding:0px;
+	margin:0px;
+	background: url('bg.jpg');
+	background-size:Cover;
+	font-family:"Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+
+.allin{
+	position:Absolute;
+	top:0;
+	left:0;
+	width:100px;
+	height:100px;
+	background-color: Green;
+}
+.container{
+	position:Absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color:#fff;
+	width:350px;
+	height:280px;
+	padding:40px;
+	-webkit-box-shadow: 10px 10px 29px 0px rgba(20,17,20,1);
+	-moz-box-shadow: 10px 10px 29px 0px rgba(20,17,20,1);
+	box-shadow: 10px 10px 29px 0px rgba(20,17,20,1);
+}
+
+#logo{
+	margin-bottom:30px;
+}
+#txtEntrar{
+	font-size:1.5Rem;
+	font-weight:600px;
+}
+
+#textarea{
+	margin-top:10px;
+}
+
+#textarea input{
+	background-color:None;
+	border:None;
+	border-bottom:1px solid #3d3938;
+	outline:None;
+	width:100%;
+	padding-bottom:4px;
+	font-size:16px;
+}
+#textarea input:hover{
+	background-color:None;
+	border-bottom:1px solid #141414;
+	outline:None;
+}
+#textarea a{
+	text-decoration:None;
+}
+#textarea a:none{
+	text-decoration:Underline;
+}
+#btnProx{
+	position:Absolute;
+	border:None;
+	margin-top:25px;
+	margin-right:40px;
+	width: 130px;
+	height: 43px;
+	right:0;
+	background-color:#0767B1;
+	color:White;
+}
